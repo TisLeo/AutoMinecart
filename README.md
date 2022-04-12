@@ -16,3 +16,5 @@ A useful Minecraft plugin that spawns a Minecart upon right-clicking a rail and 
 
 **Help**:
 If you need help, please add me on Discord and send me a message: `Lеo#0001` (must copy+paste the tag)
+
+**This plugin was inspired by Kreezxil's [Terracart Reloaded Mod](https://www.curseforge.com/minecraft/mc-mods/terracart-reloaded)**
