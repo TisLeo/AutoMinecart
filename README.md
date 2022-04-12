@@ -1,6 +1,8 @@
 # AutoMinecart
 A useful Minecraft plugin that spawns a Minecart upon right-clicking a rail and teleports the player into the cart. It saves players having to get a minecart, place it, then enter it.
 
+The plugin was made with the [Paper 1.18 API](https://papermc.io/), and is compatible with Spigot servers from 1.18 onwards.
+
 **Features**
 - Allows players to right-click on a plain rail and get teleported into an automatically-spawned minecart
 - Add/remove disabled worlds in the `config.yml` file
