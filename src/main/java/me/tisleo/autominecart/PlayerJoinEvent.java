@@ -15,8 +15,10 @@ public class PlayerJoinEvent implements Listener {
     @EventHandler
     public void onPlayerJoin(org.bukkit.event.player.PlayerJoinEvent e) {
         if (!(plugin.getConfig().isSet("players." + e.getPlayer().getUniqueId()))) {
+            plugin.getConfig().set("players."+e.getPlayer().getUniqueId(), ".toggled");
             plugin.getConfig().set("players."+e.getPlayer().getUniqueId()+".toggled", true);
             plugin.saveConfig();
+            plugin.reloadConfig();
         }
     }
 

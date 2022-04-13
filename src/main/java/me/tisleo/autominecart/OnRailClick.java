@@ -8,11 +8,12 @@ import org.bukkit.event.block.Action;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.plugin.Plugin;
 
+import java.util.ArrayList;
+
 public class OnRailClick implements Listener {
 
     private final Plugin plugin;
-    public static Entity oldMinecart;
-    public static Player p;
+    public static Entity minecart;
 
     public OnRailClick(AutoMinecart plugin) {
         this.plugin = plugin;
@@ -20,7 +21,7 @@ public class OnRailClick implements Listener {
 
     @EventHandler
     public void onRightClick(PlayerInteractEvent e) {
-        p = e.getPlayer();
+        Player p = e.getPlayer();
         if (!(plugin.getConfig().getStringList("disabled_worlds").contains(p.getWorld().getName()))) {
             if (plugin.getConfig().getBoolean("players."+p.getUniqueId().toString()+".toggled")) {
                 if (p.isOp() || p.hasPermission("autominecart.use")) {
@@ -28,9 +29,8 @@ public class OnRailClick implements Listener {
                         if (e.getAction() == Action.RIGHT_CLICK_BLOCK) {
                             if (e.getClickedBlock().getType() == Material.RAIL) {
                                 if (!(p.getInventory().getItemInMainHand().getType() == Material.MINECART)) {
-                                    Entity minecart = p.getWorld().spawn(e.getClickedBlock().getLocation(), EntityType.MINECART.getEntityClass());
+                                    minecart = p.getWorld().spawn(e.getClickedBlock().getLocation(), EntityType.MINECART.getEntityClass());
                                     minecart.addPassenger(p);
-                                    oldMinecart = minecart;
                                 }
                             }
                         }
@@ -39,4 +39,5 @@ public class OnRailClick implements Listener {
             }
         }
     }
+
 }
