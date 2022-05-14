@@ -1,17 +1,10 @@
 # +---------------------------------+
 # |       AutoMinecart Config       |
 # +---------------------------------+
-
-# WARNING: DO NOT CHANGE THE "players:" SECTION.
-# IT WILL BREAK THE PLUGIN FOR CERTAIN USERS
+# WARNING: DO NOT CHANGE THE players.yml FILE. IT WILL BREAK THE PLUGIN.
+# Make sure to reload/restart your server for changes to apply.
 
 # Select which worlds you want AutoMinecart to be disabled in.
-# Add a dash - and then put the world name like shown below
+# Add a dash - and then put the world name in "speech marks" like shown below
 disabled_worlds:
   - "example_world"
-
-# Set to false if you want the minecart to stay when you exit it
-remove_minecart_on_exit: true
-
-# WARNING: DO NOT CHANGE ANYTHING BELOW OR THE PLUGIN WILL BREAK.
-players:

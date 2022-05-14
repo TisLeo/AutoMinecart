@@ -6,7 +6,7 @@
 
     <groupId>me.tisleo</groupId>
     <artifactId>AutoMinecart</artifactId>
-    <version>1.0</version>
+    <version>1.2</version>
     <packaging>jar</packaging>
 
     <name>AutoMinecart</name>

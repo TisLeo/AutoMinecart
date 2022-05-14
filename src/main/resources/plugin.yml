@@ -6,4 +6,4 @@ authors: [ TisLeo ]
 description: A useful plugin that spawns a Minecart upon right-clicking a rail and teleports the player into it.
 commands:
   togglecart:
-    description: toggle AutoMinecart on or off
+    description: toggle AutoMinecart on or off for a specific user
