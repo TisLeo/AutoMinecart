@@ -9,7 +9,6 @@ import org.bukkit.event.vehicle.VehicleExitEvent;
 public class MinecartLeaveHandler implements Listener {
 
     private final AutoMinecart plugin;
-
     MinecartLeaveHandler(AutoMinecart plugin) {
         this.plugin = plugin;
     }

@@ -6,12 +6,12 @@
 
     <groupId>me.tisleo</groupId>
     <artifactId>AutoMinecart</artifactId>
-    <version>1.2</version>
+    <version>1.2.1</version>
     <packaging>jar</packaging>
 
     <name>AutoMinecart</name>
 
-    <description>A plugin that allows a player to right-click on a rail and teleport on to it in a minecart.
+    <description>A plugin that mimics Terraria minecarts.
     </description>
     <properties>
         <java.version>1.8</java.version>
