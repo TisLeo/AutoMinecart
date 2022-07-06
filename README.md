@@ -19,6 +19,6 @@ The plugin was made with the [Paper 1.18 API](https://papermc.io/), and is compa
 5. Enjoy!
 
 ### **Help**
-If you need help, please add me on Discord and send me a message: `Lеo#0712` (must copy+paste the tag)
+If you need help, please **start a conversation** with me on Spigot.
 
 **This plugin was inspired by Kreezxil's [Terracart Reloaded Mod](https://www.curseforge.com/minecraft/mc-mods/terracart-reloaded)**
