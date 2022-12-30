@@ -3,7 +3,11 @@ version: '${project.version}'
 main: me.tisleo.autominecart.AutoMinecart
 api-version: 1.18
 authors: [ TisLeo ]
-description: A useful plugin that spawns a Minecart upon right-clicking a rail and teleports the player into it.
+description: A useful plugin that mimics Terraria minecarts
 commands:
   togglecart:
     description: toggle AutoMinecart on or off for a specific user
+permissions:
+  autominecart.use:
+    description: Allows a user to use this plugin
+    default: op

@@ -1,10 +1,8 @@
 # +---------------------------------+
 # |       AutoMinecart Config       |
 # +---------------------------------+
-# WARNING: DO NOT CHANGE THE players.yml FILE. IT WILL BREAK THE PLUGIN.
 # Make sure to reload/restart your server for changes to apply.
 
 # Select which worlds you want AutoMinecart to be disabled in.
-# Add a dash - and then put the world name in "speech marks" like shown below
 disabled_worlds:
   - "example_world"
