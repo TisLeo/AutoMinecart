@@ -5,11 +5,12 @@ The plugin was made with the [Paper 1.18 API](https://papermc.io/), and is compa
 
 ### **Features**
 - Allows players to right-click a rail (excluding Activator Rails) with an empty and get teleported into an automatically-spawned minecart
-- Automatically travels at max speed, similar to the Terraria minecarts (if travelling over a powered rail, it must be powered on).
+- Automatically travels at max speed, similar to the Terraria minecarts
 - Minecarts will automatically be deleted once a player gets out
 - Add/remove disabled worlds in the `config.yml` file
 - Use the permission `autominecart.use` to allow non-OP players to use the plugin
 - Use the `/togglecart` command to toggle the functionality on or off for yourself
+- **Note:** due to how Minecraft handles powered rails, if travelling over one, *it must be powered on*. Additionally, having too many corner rails close together may cause the vehicle to fly off-track due to speed.
 
 ### **Installation**
 1. Go to the [Spigot Page](https://www.spigotmc.org/resources/autominecart.101327/)
